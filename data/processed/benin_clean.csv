@@ -1,0 +1,6 @@
+Date,Location,Solar_Output(kW),Temperature(°C),Humidity(%)
+2023-01-01,Porto-Novo,450,30,60
+2023-01-02,Cotonou,480,31,55
+2023-01-03,Calavi,500,29,65
+2023-01-04,Abomey-Calavi,520,32,70
+2023-01-05,Porto-Novo,470,30,62
