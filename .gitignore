@@ -207,8 +207,7 @@ marimo/_lsp/
 __marimo__/
 # ignore practice.py
 practice.py
-# ignore benin_clean.csv
-benin_clean.csv
+
 # ignore benin.csv
 benin.csv
 # ignore benin_metadata.csv
