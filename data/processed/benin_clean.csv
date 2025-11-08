@@ -1,6 +1,4 @@
-Date,Location,Solar_Output(kW),Temperature(°C),Humidity(%)
-2023-01-01,Porto-Novo,450,30,60
-2023-01-02,Cotonou,480,31,55
-2023-01-03,Calavi,500,29,65
-2023-01-04,Abomey-Calavi,520,32,70
-2023-01-05,Porto-Novo,470,30,62
+Timestamp,GHI,DNI,DHI,ModA,ModB,Tamb,RH,WS,WSgust,WSstdev,WD,BP,Cleaning,Precipitation,TModA,TModB
+2023-01-01 00:00,200,150,50,210,200,30,60,2.5,3.0,1.0,270,1010,1,0,35,36
+2023-01-01 01:00,210,160,55,220,210,29,65,2.0,2.5,0.5,275,1012,0,0,34,35
+2023-01-01 03:00,220,170,60,230,220,27,55,3.0,3.5,1.2,260,1013,0,0.1,32,33
