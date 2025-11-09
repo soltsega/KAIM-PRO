@@ -205,32 +205,5 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-# ignore practice.py
-practice.py
 
-# ignore benin.csv
-benin.csv
-# ignore benin_metadata.csv
-benin_metadata.csv
-# ignore raw data folder
-raw_data
-# ignore processed data folder
-processed_data
-# ignore metadata folder
-metadata
-# ignore .ipynb_checkpoints folder
-.ipynb_checkpoints
-# ignore .vscode folder
-.vscode
-# ignore .venv folder
-.venv
-# ignore .idea folder
-.idea
-cppractice.cpp
-
-
-# sample notebook files
-EDAA.ipynb
-EDA.ipynb
-EDAA_IRIS.ipynb
-
+.cppracitice
