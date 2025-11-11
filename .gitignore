@@ -208,3 +208,6 @@ __marimo__/
 
 .cppracitice
 practice.py
+settings.json
+launch.json
+c_cpp_properties.json
