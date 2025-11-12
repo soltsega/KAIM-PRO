@@ -1,12 +1,10 @@
-
 # KAIM Internship: Solar Data Discovery Project
 
 ## Overview
 
 This project is part of the KAIM internship, focusing on the analysis of solar farm data from three countries: Benin, Sierra Leone, and Togo. The goal is to perform exploratory data analysis (EDA) on solar radiation measurements to inform strategic solar investments by MoonLight Energy Solutions.
 
-## Project Structure for the main branch
-
+## Project Structure for the Main Branch
 
 ```
 KAIM-PRO
@@ -17,18 +15,25 @@ KAIM-PRO
 ├── Include/
 ├── Lib/
 ├── Scripts/
+├── launch.json
+├── settings.json
 ├── pyvenv.cfg
 ├── .gitignore
 ├── .vscode/
 ├── data/
 │   ├── benin-malanville.csv
 │   ├── sierra-leone-bumbuna.csv
-│   └── togo-dapaong_qc.csv
+│   ├── togo-dapaong_qc.csv
+│   └── processed/
+│       ├── benin_clean.csv
+│       ├── sierra_leone_clean.csv
+│       └── togo_clean.csv
 ├── metadata/
 │   └── data_description.md
-├── .ipynb_checkpoints/
-│   └── __init__.py
 ├── notebook/
+│   ├── eda_benin.ipynb
+│   ├── eda_sierra_leone.ipynb
+│   └── eda_togo.ipynb
 ├── src/
 │   ├── __init__.py
 ├── LICENSE
@@ -69,6 +74,10 @@ The datasets include various environmental measurements relevant to solar energy
 - `benin-malanville.csv`: Contains solar data for Benin.
 - `sierra-leone-bumbuna.csv`: Contains solar data for Sierra Leone.
 - `togo-dapaong_qc.csv`: Contains solar data for Togo.
+- `processed/`: Directory containing cleaned datasets:
+  - `benin_clean.csv`: Cleaned solar data for Benin.
+  - `sierra_leone_clean.csv`: Cleaned solar data for Sierra Leone.
+  - `togo_clean.csv`: Cleaned solar data for Togo.
 
 ### Metadata
 
@@ -132,8 +141,8 @@ Contributions are welcome! Please submit a pull request for any improvements or 
 
 For inquiries or further information, please contact:
 
-tsegasolomon538@gmail.com
-- GitHub: soltsega
-
+tsegasolomon538@gmail.com  
+- GitHub: [soltsega](https://github.com/soltsega)
 
 This README aims to provide a comprehensive overview of the project, including its structure, objectives, and how to get started. Adjust any specific details as necessary!
+```
