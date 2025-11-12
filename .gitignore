@@ -211,3 +211,5 @@ c_cpp_properties.json
 launch.json
 settings.json
 practice.py
+.metadata
+data_description.md
