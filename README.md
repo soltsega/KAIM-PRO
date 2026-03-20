@@ -1,4 +1,4 @@
-# KAIM Internship: Solar Data Discovery Project
+# Solar Data Discovery Project
 
 ## Overview
 
@@ -7,7 +7,7 @@ This project is part of the KAIM internship, focusing on the analysis of solar f
 ## Project Structure for the Main Branch
 
 ```
-KAIM-PRO
+EDA
 ├── .github/
 │   └── workflows/
 │       └── CI.yml
@@ -89,8 +89,8 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/KAIM-PRO.git
-   cd KAIM-PRO
+   git clone https://github.com/yourusername/EDA.git
+   cd EDA
    ```
 
 2. Set up a Python virtual environment:
